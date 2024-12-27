@@ -1,0 +1,74 @@
+/* Universal Code */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main style */
+
+h1{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 4px white;
+    padding: 10px;
+}
+
+/* choice */
+
+.choices{
+    margin: 2rem;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.choice img:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+/* score */
+h2{
+    text-align: center;
+    text-shadow: 0 0 2px black;
+    font-size: 30px;
+}
+.score{
+    padding: 10px;
+}
+.score p{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 1.5px black;
+}
+.score-one{
+    border-right: 3px solid black;
+    padding-right: 20px;
+}
+
+/* msg */
+.msg-container{
+    font-size: 25px;
+}
+.msg-container p{
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 0 0 1px white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Be Happy */
